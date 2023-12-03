@@ -1,6 +1,6 @@
-# Nome do Seu Projeto
+# Algoritmo A* para Navegação em Mapa
 
-Descrição curta do seu projeto.
+Implementação de um algoritmo A* em Python para encontrar a melhor rota em um mapa.
 
 ## Requisitos
 
@@ -10,12 +10,12 @@ Descrição curta do seu projeto.
 
 1. **Clone o repositório:**
     ```bash
-    git clone 
+    git clone [https://github.com/seu-usuario/seu-projeto.git](https://github.com/chrystopher-santos/complexidade-algoritmo.git)
     ```
 
 2. **Navegue até o diretório do projeto:**
     ```bash
-    cd seu-projeto
+    cd complexidade.algoritmo
     ```
 
 3. **Execute o programa:**
@@ -23,17 +23,20 @@ Descrição curta do seu projeto.
     python main.py
     ```
 
-4. **Siga as instruções na tela:**
-    - Descreva aqui o que o usuário precisa fazer.
+4. **Forneça as coordenadas de destino:**
+    - O programa irá solicitar que você insira as coordenadas de destino no formato `x y`.
 
 5. **Observe a saída:**
-    - Descreva aqui o que o usuário pode esperar ver como resultado.
+    - O programa imprimirá o mapa com o caminho encontrado e o custo total, seguindo o formato:
+        ```plaintext
+        123 1,1 2,1 2,2 2,3 2,4 3,4 4,4 5,4 6,4
+        ```
+        - O número inicial é o custo total do trajeto.
+        - As coordenadas seguintes são os pontos no mapa que formam o caminho.
 
 ## Formato do Mapa
 
-Explicação do formato do arquivo de mapa.
-
-Exemplo:
+O arquivo de mapa deve ter o seguinte formato:
 
 10 8
 0 7
@@ -45,3 +48,4 @@ Exemplo:
 0 0 0 0 0 0 0 -1 0 0
 0 0 0 0 0 0 0 0 0 0
 0 0 0 0 0 0 0 0 0 0
+
