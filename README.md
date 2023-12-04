@@ -1,4 +1,5 @@
 # Algoritmo A* para Navegação em Mapa
+Grupo: Chrystopher Santos, Rafael Danoski e Thaynara Fumegali
 
 Implementação de um algoritmo A* em Python para encontrar a melhor rota em um mapa.
 
